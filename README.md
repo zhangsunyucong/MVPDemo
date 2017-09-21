@@ -3,6 +3,7 @@
 这个项目的重点是MVP和dagger2使用和与后台交互的安全。
 android前端：
 1、MVPDemo是一个MVP架构，dagger2对象依赖注入集合MVP各个组件。页面效果有点类似微信。
+
 2、数据库后台接口使用了retrofit2，json数据格式交互3、自定义ConverterFactory和Interceptor实现加解密。
 3、rxjava2，rxlifecycle2，rxbinding2。
 4、autolayout布局屏幕适配，标准是720*1080。
