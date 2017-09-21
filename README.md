@@ -2,7 +2,7 @@
 
 这个项目的重点是MVP和dagger2使用和与后台交互的安全。
 
-android前端：
+（一）android前端：
 
 1、MVPDemo是一个MVP架构，dagger2对象依赖注入集合MVP各个组件。页面效果有点类似微信。
 
@@ -29,7 +29,7 @@ android前端：
 12、页面路由Arouter.
 
 
-与后台交互安全机制：
+（二）与后台交互安全机制：
 
 1、后台使用了leancloud和nodejs搭建。
 
