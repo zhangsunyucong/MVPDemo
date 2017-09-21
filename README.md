@@ -16,7 +16,7 @@
 
 5、sqlite的orm框架是greenDao3库。
 
-6、socket.io的android和nodejs实现（NodeTestDemo：https://github.com/zhangsunyucong/NodeTestDemo）。
+6、socket.io的android和nodejs实现（ NodeTestDemo：https://github.com/zhangsunyucong/NodeTestDemo ）。
 
 7、PDF文档库android-pdf-viewer（由于pdfcore的原因使打包出来的apk增加了14M左右）。
 
