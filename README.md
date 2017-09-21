@@ -29,7 +29,7 @@ android前端：
 12、页面路由Arouter.
 
 
-与后台交互安全:
+与后台交互安全机制：
 
 1、后台使用了leancloud和nodejs搭建。
 
