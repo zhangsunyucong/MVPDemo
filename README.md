@@ -3,7 +3,6 @@
 这个项目的重点是MVP和dagger2使用和与后台交互的安全。
 android前端：
 1、MVPDemo是一个MVP架构，dagger2对象依赖注入集合MVP各个组件。页面效果有点类似微信。
-
 2、数据库后台接口使用了retrofit2，json数据格式交互3、自定义ConverterFactory和Interceptor实现加解密。
 3、rxjava2，rxlifecycle2，rxbinding2。
 4、autolayout布局屏幕适配，标准是720*1080。
@@ -14,7 +13,7 @@ android前端：
 9、bugly的奔溃信息跟踪和热修复管理。建议奔溃信息在开发和测试时不开发，只收集发布后的奔溃信息。
 10、jsoup解析csdn博客获取数据。
 11、腾讯X5内核浏览器服务TBS代替原生的webview。
-12、页面路由Arouter
+12、页面路由Arouter.
 
 与后台交互安全:
 后台使用了leancloud和nodejs搭建。
