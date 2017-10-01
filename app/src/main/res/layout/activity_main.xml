@@ -1,0 +1,129 @@
+<com.zhy.autolayout.AutoFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/common_title_bar"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#888" />
+
+        <com.zhangsunyucong.chanxa.testproject.widget.alphatab.AlphaTabsIndicator
+            android:id="@+id/alphaIndicator"
+            android:layout_width="match_parent"
+            android:layout_height="120px"
+            android:orientation="horizontal">
+
+            <com.example.librarys.RippleView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="22px"
+                app:rv_type="rectangle"
+                app:rv_zoom="true">
+
+                <com.zhangsunyucong.chanxa.testproject.widget.alphatab.AlphaTabView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:tabIconNormal="@mipmap/home_normal"
+                    app:tabIconSelected="@mipmap/home_selected"
+                    app:tabText="@string/main_tab_first_page"
+                    app:tabTextSize="@dimen/text_size_common_sp"
+                    app:textColorNormal="@color/main_tab_normal_color"
+                    app:textColorSelected="@color/main_tab_selected_color" />
+
+            </com.example.librarys.RippleView>
+
+            <com.example.librarys.RippleView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="22px"
+                app:rv_type="rectangle"
+                app:rv_zoom="true">
+
+                <com.zhangsunyucong.chanxa.testproject.widget.alphatab.AlphaTabView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:tabIconNormal="@mipmap/music_normal"
+                    app:tabIconSelected="@mipmap/music_selected"
+                    app:tabText="@string/main_tab_music"
+                    app:tabTextSize="@dimen/text_size_common_sp"
+                    app:textColorNormal="@color/main_tab_normal_color"
+                    app:textColorSelected="@color/main_tab_selected_color" />
+
+            </com.example.librarys.RippleView>
+
+            <com.example.librarys.RippleView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="22px"
+                app:rv_type="rectangle"
+                app:rv_zoom="true">
+
+                <com.zhangsunyucong.chanxa.testproject.widget.alphatab.AlphaTabView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:tabIconNormal="@mipmap/service_normal"
+                    app:tabIconSelected="@mipmap/service_selected"
+                    app:tabText="@string/main_tab_map"
+                    app:tabTextSize="@dimen/text_size_common_sp"
+                    app:textColorNormal="@color/main_tab_normal_color"
+                    app:textColorSelected="@color/main_tab_selected_color" />
+
+            </com.example.librarys.RippleView>
+
+
+            <com.example.librarys.RippleView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="22px"
+                app:rv_type="rectangle"
+                app:rv_zoom="true">
+
+            <com.zhangsunyucong.chanxa.testproject.widget.alphatab.AlphaTabView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:tabIconNormal="@mipmap/me_normal"
+                app:tabIconSelected="@mipmap/me_selected"
+                app:tabText="@string/main_tab_me"
+                app:tabTextSize="@dimen/text_size_common_sp"
+                app:textColorNormal="@color/main_tab_normal_color"
+                app:textColorSelected="@color/main_tab_selected_color" />
+
+            </com.example.librarys.RippleView>
+        </com.zhangsunyucong.chanxa.testproject.widget.alphatab.AlphaTabsIndicator>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <!-- Must be last for right layering display -->
+    <com.zhy.autolayout.AutoFrameLayout
+        android:visibility="visible"
+        android:id="@+id/toolbar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.example.librarys.materialsearchview.MaterialSearchView
+            android:id="@+id/search_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </com.zhy.autolayout.AutoFrameLayout>
+
+</com.zhy.autolayout.AutoFrameLayout>

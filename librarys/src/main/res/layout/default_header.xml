@@ -1,0 +1,80 @@
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom" >
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="140px" >
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/default_header_text">
+
+            <TextView
+                android:id="@+id/default_header_title"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_common_px"
+                android:textColor="#777777"
+                android:text="下拉刷新" />
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6px" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="上次更新时间："
+                    android:textColor="#777777"
+                    android:textSize="@dimen/text_size_common_px" />
+
+                <TextView
+                    android:id="@+id/default_header_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#777777"
+                    android:text="刚刚"
+                    android:textSize="@dimen/text_size_common_px" />
+            </com.zhy.autolayout.AutoLinearLayout>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <ImageView
+            android:id="@+id/default_header_arrow"
+            android:layout_width="62px"
+            android:layout_height="62px"
+            android:layout_alignLeft="@id/default_header_text"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="-74px"/>
+
+        <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+            android:id="@+id/default_header_progressbar"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:indeterminate="true"
+            android:layout_alignLeft="@id/default_header_text"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="-80px"
+            android:visibility="invisible"
+            android:tint="@color/red"
+            style="@style/Widget.MaterialProgressBar.ProgressBar.Large" />
+
+<!--        <ProgressBar
+            android:id="@+id/default_header_progressbar"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@id/default_header_text"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="-40dp"
+            android:visibility="invisible" />-->
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+</com.zhy.autolayout.AutoLinearLayout>

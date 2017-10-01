@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.librarys.RippleView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:rv_type="rectangle"
+    app:rv_zoom="true">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/content"
+        android:paddingBottom="16px"
+        android:paddingLeft="32px"
+        android:paddingRight="32px"
+        android:paddingTop="16px"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:baselineAligned="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/blogImg"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:layout_marginRight="20px"
+                android:src="@drawable/ic_original"/>
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/blog_title"
+                android:textColor="@color/black0"
+                android:textSize="@dimen/text_size_large_px"
+                android:textStyle="bold"/>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16px"
+                android:src="@drawable/csdn"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="4"
+                android:singleLine="false"
+                android:text="@string/blog_description"
+                android:textColor="@color/gray0"
+                android:textSize="@dimen/text_size_common_px"/>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical|right"
+                android:paddingTop="16px"
+                android:singleLine="true"
+                android:text="@string/blog_create_date"
+                android:textColor="@color/gray0"
+                android:textSize="@dimen/text_size_small_px"/>
+
+            <TextView
+                android:id="@+id/id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingTop="32px"
+                android:text="@string/blog_read_times"
+                android:textColor="@color/gray0"
+                android:visibility="gone"/>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <View
+        android:layout_below="@+id/content"
+        style="@style/Line"/>
+
+</com.example.librarys.RippleView>

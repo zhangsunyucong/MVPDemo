@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zhangsunyucong.chanxa.testproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="design_width"
+            android:value="720" />
+        <meta-data
+            android:name="design_height"
+            android:value="1280" />
+        <!-- 高德地图申请的key -->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="1b8317fb07426d175ebd2817397c38d8" />
+
+        <activity
+            android:name=".ui.user.login.LoginActivity"
+            android:theme="@style/MainTheme"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/MainTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name=".ui.main.firstpage.BlogListActivity"
+            android:windowSoftInputMode="stateHidden" />
+
+        <!-- 配置APP ID -->
+        <meta-data
+            android:name="BUGLY_APPID"
+            android:value="43462d0d28" />
+        <!-- 配置APP版本号 -->
+        <meta-data
+            android:name="BUGLY_APP_VERSION"
+            android:value="1" />
+        <!-- 配置APP渠道号 -->
+        <meta-data
+            android:name="BUGLY_APP_CHANNEL"
+            android:value="test" />
+
+        <activity
+            android:name=".ui.user.register.RegisterActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.user.register.RegisterByNameActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.user.login.LoginByNameActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.user.login.LoginBySMSActivity"
+            android:windowSoftInputMode="stateHidden" />
+
+        <!-- 定位需要的服务 使用2.0的定位需要加上这个 -->
+        <service android:name="com.amap.api.location.APSService" />
+
+        <activity android:name=".TbsWebviewActivity" />
+        <activity android:name=".ui.main.vitae.ViateActivity" />
+        <activity android:name=".ui.setting.AboutActivity" />
+        <activity android:name=".ui.main.album.AlbumActivity" />
+        <activity android:name=".ui.setting.feedback.FeedbackActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+
+        <activity
+            android:name="com.example.librarys.photopicker.PhotoPickerActivity"
+            />
+
+        <activity
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:name="com.example.librarys.photopicker.PhotoPagerActivity"
+            />
+
+        <activity
+            android:name="com.example.librarys.customactivityoncrash.activity.DefaultErrorActivity"
+            android:process=":error_activity" />
+        <provider
+            android:name="com.example.librarys.customactivityoncrash.provider.CaocInitProvider"
+            android:authorities="${applicationId}.customactivityoncrashinitprovider"
+            android:exported="false"
+            android:initOrder="101" />
+
+    </application>
+
+</manifest>

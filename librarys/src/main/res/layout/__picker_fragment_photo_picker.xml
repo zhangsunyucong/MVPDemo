@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <android.support.v7.widget.RecyclerView
+      android:id="@+id/rv_photos"
+      android:layout_width="match_parent"
+      android:gravity="center"
+      android:layout_weight="1"
+      android:layout_height="0dip" />
+
+  <com.zhy.autolayout.AutoLinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="90px"
+	  android:background="@color/colorPrimaryDark">
+        <Button
+            android:id="@+id/button"
+            android:text="@string/__picker_all_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_common_sp"
+            style="@style/Widget.AppCompat.ActionButton"
+            />
+
+  </com.zhy.autolayout.AutoLinearLayout>
+
+</com.zhy.autolayout.AutoLinearLayout>

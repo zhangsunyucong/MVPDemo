@@ -1,0 +1,17 @@
+<com.zhy.autolayout.AutoLinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="16px">
+
+    <TextView
+            android:id="@+id/message"
+            style="?android:textAppearanceSmall"
+            android:textColor="?android:textColorSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_large_px"
+            android:gravity="center"/>
+
+</com.zhy.autolayout.AutoLinearLayout>

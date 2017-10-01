@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/shape_corners_transparentblack2"
+  android:padding="10px">
+  
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fdfdffdfdf"
+        android:textSize="@dimen/text_size_small_px"
+        android:textColor="@color/white"
+        android:layout_centerInParent="true"
+        android:id="@+id/id_textView_toastMessage"
+        android:layout_margin="10px"
+        android:gravity="center"/>
+    
+</com.zhy.autolayout.AutoRelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/common_title_bar"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:id="@+id/sl_center"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fadingEdge="none"
+            android:scrollbars="none" >
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/et_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="600px"
+                    android:padding="20px"
+                    android:maxLines="800"
+                    android:gravity="top"
+                    android:background="@null"
+                    android:textSize="@dimen/text_size_common_px"
+                    android:hint="@string/hint_feedback"/>
+
+                <EditText
+                    android:id="@+id/et_userPhoneNum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20px"
+                    android:background="@null"
+                    android:maxLines="1"
+                    android:hint="输入你的联系方式（手机号、QQ等）"
+                    android:inputType="textAutoComplete"
+                    android:text=""
+                    android:textSize="@dimen/text_size_common_px"
+                    android:textColorHint="@color/gray3"/>
+
+                <View
+                    android:id="@+id/vLinePwd"
+                    style="@style/Line"
+                    />
+
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btn_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height_common"
+            android:layout_marginBottom="30px"
+            android:layout_marginTop="30px"
+            android:layout_marginStart="30px"
+            android:layout_marginEnd="30px"
+            android:background="@drawable/selector_login_btn"
+            android:enabled="false"
+            android:text="提交"
+            android:textColor="@color/selector_login_btn"
+            android:textSize="@dimen/text_size_large_px"/>
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+</com.zhy.autolayout.AutoLinearLayout>

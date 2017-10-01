@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray5"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_title_bar"/>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300px">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="140px"
+                android:layout_height="140px"
+                android:src="@mipmap/ic_launcher"/>
+
+            <TextView
+                android:id="@+id/tv_verson_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16px"
+                android:text="@string/app_name_and_version"
+                android:textColor="@color/gray2"
+                android:textSize="@dimen/text_size_common_px"/>
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <com.example.librarys.RippleView
+            android:id="@+id/rip_function"
+            style="@style/rippleViewStyle"
+            app:rv_type="rectangle"
+            app:rv_zoom="true">
+
+            <TextView
+                android:id="@+id/tv_function"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/setting_item_height_common"
+                android:text="@string/function_introduction"
+                android:gravity="center_vertical"
+                android:textColor="@color/black0"
+                android:textSize="@dimen/text_size_common_px"
+                android:paddingLeft="40px"/>
+
+        </com.example.librarys.RippleView>
+
+        <View
+            style="@style/Line"
+            android:layout_marginLeft="38px"
+            android:layout_marginRight="38px"
+            />
+
+        <com.example.librarys.RippleView
+            android:id="@+id/rip_complain"
+            style="@style/rippleViewStyle"
+            app:rv_type="rectangle"
+            app:rv_zoom="true">
+
+            <TextView
+                android:id="@+id/tv_complain"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/setting_item_height_common"
+                android:text="@string/complaint"
+                android:gravity="center_vertical"
+                android:textColor="@color/black0"
+                android:textSize="@dimen/text_size_common_px"
+                android:paddingLeft="40px"/>
+
+        </com.example.librarys.RippleView>
+
+        <View
+            style="@style/Line"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            />
+
+        <com.example.librarys.RippleView
+            android:id="@+id/rip_share"
+            style="@style/rippleViewStyle"
+            app:rv_type="rectangle"
+            app:rv_zoom="true">
+
+            <TextView
+                android:id="@+id/tv_share"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/setting_item_height_common"
+                android:text="@string/app_share_to_friend"
+                android:gravity="center_vertical"
+                android:textColor="@color/black0"
+                android:textSize="@dimen/text_size_common_px"
+                android:paddingLeft="40px"/>
+
+        </com.example.librarys.RippleView>
+
+        <View
+            style="@style/Line"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            />
+
+        <com.example.librarys.RippleView
+            android:id="@+id/rip_update"
+            style="@style/rippleViewStyle"
+            app:rv_type="rectangle"
+            app:rv_zoom="true">
+
+            <TextView
+                android:id="@+id/tv_update"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/setting_item_height_common"
+                android:text="@string/check_update"
+                android:gravity="center_vertical"
+                android:textColor="@color/black0"
+                android:textSize="@dimen/text_size_common_px"
+                android:paddingLeft="40px"/>
+
+        </com.example.librarys.RippleView>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="@string/terms_of_use_and_privacy_policy"
+        android:textColor="@color/blue0"
+        android:textSize="@dimen/text_size_small_px"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/CSDN_LQR_personal_development"
+        android:textColor="@color/gray2"
+        android:textSize="@dimen/text_size_small_px"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/fun_and_enjoy"
+        android:textColor="@color/gray2"
+        android:textSize="@dimen/text_size_small_px"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="不涉及任何版权问题"
+        android:textColor="@color/gray2"
+        android:textSize="@dimen/text_size_small_px"
+        android:visibility="gone"/>
+
+
+</com.zhy.autolayout.AutoLinearLayout>

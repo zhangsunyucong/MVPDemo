@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Librarys</string>
+    <string name="search_hint">Search</string>
+
+    <string name="__picker_title">图片</string>
+    <string name="__picker_delete">删除</string>
+    <string name="__picker_done">完成</string>
+    <string name="__picker_done_with_count">完成(%1$d/%2$d)</string>
+    <string name="__picker_image_index">%1$d/%2$d</string>
+    <string name="__picker_undo">撤销</string>
+    <string name="__picker_deleted_a_photo">删除一张图片</string>
+    <string name="__picker_confirm_to_delete">确定删除吗?</string>
+    <string name="__picker_yes">是</string>
+    <string name="__picker_cancel">否</string>
+    <string name="__picker_all_image">所有图片</string>
+    <string name="__picker_image_count">%1$d</string>
+    <string name="__picker_over_max_count_tips">您只能选择 %1$d 图片</string>
+
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">出现意外错误。\n很抱歉给您带来不便.</string>
+    <string name="customactivityoncrash_error_activity_restart_app">重启</string>
+    <string name="customactivityoncrash_error_activity_close_app">关闭应用</string>
+    <string name="customactivityoncrash_error_activity_error_details">错误</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">错误</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">关闭</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">复制到剪切板</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">复制到剪切板</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">错误信息</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="search_icon_padding">12dp</dimen>
+    <dimen name="search_view_text_padding">65dp</dimen>
+
+    <dimen name="text_size_small_px">26px</dimen>
+    <dimen name="text_size_common_px">30px</dimen>
+    <dimen name="text_size_large_px">36px</dimen>
+    <dimen name="text_size_big_large_px">40px</dimen>
+
+    <dimen name="text_size_small_sp">14sp</dimen>
+    <dimen name="text_size_common_sp">16sp</dimen>
+    <dimen name="text_size_large_sp">18sp</dimen>
+    <dimen name="text_size_big_large_sp">20sp</dimen>
+
+    <dimen name="__picker_iwf_actionBarSize">48dip</dimen>
+    <dimen name="__picker_item_photo_size">80dip</dimen>
+    <dimen name="__picker_item_camera_size">80dip</dimen>
+    <dimen name="__picker_item_directory_height">80dp</dimen>
+    <dimen name="actionBarSize">32dip</dimen>
+    <dimen name="setting_item_height_common">102px</dimen>
+
+    <dimen name="customactivityoncrash_activity_horizontal_margin">26px</dimen>
+    <dimen name="customactivityoncrash_activity_vertical_margin">26px</dimen>
+    <dimen name="customactivityoncrash_error_activity_error_details_text_size">12sp</dimen>
+</resources>

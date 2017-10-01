@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">俭哥部落</string>
+
+    <!--登录-->
+    <string name="user_name_not_empty">用户名不能为空</string>
+    <string name="password_not_empty">密码不能为空</string>
+    <string name="user_phone_num_not_right">手机号输入不正确</string>
+    <string name="sms_code_not_empty">验证码不能为空</string>
+    <string name="sms_code_send">验证码已经发送</string>
+    <string name="user_phone_num_not_empty">手机号不能为空</string>
+    <string name="login">登 录</string>
+
+    <!--注册-->
+    <string name="nickname">昵称</string>
+    <string name="password">密码</string>
+    <string name="area">国家/地区</string>
+    <string name="verification_code">验证码</string>
+    <string name="register">注 册</string>
+
+    <string name="phone_not_available">手机号不可用</string>
+    <string name="send_code_error">发送验证码失败</string>
+    <string name="vertify_code_error">验证码有误</string>
+    <string name="send_code_btn_normal_tip">发送验证码</string>
+    <string name="register_error">注册出错</string>
+
+    <!--首页-->
+    <string name="main_tab_me">我</string>
+    <string name="main_tab_first_page">首页</string>
+    <string name="main_tab_music">音乐</string>
+    <string name="main_tab_map">地图</string>
+    <string name="main_tab_vitae">简历</string>
+
+    <string name="map_name_2">开</string>
+    <string name="map_name_1">关</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!--博客-->
+    <string name="blog_title">标题</string>
+    <string name="blog_desc">描述</string>
+    <string name="blog_description">描述</string>
+    <string name="blog_create_date">2014–08–08 17:54 阅读(374) 评论(8)</string>
+    <string name="blog_read_times">1</string>
+
+    <!--关于页面-->
+    <string name="about">关于</string>
+    <string name="app_name_and_version">俭哥部落</string>
+    <string name="function_introduction">功能介绍</string>
+    <string name="complaint">投诉</string>
+    <string name="check_update">检查新版本</string>
+    <string name="clipboard_content_copy">已复制内容到剪切板中</string>
+    <string name="clipboard_download_url_content_copy">已复制下载地址到剪切板中</string>
+    <string name="clipboard_content_copy_empty">要复制内容为空</string>
+    <string name="app_share_to_friend">分享给朋友</string>
+    <string name="terms_of_use_and_privacy_policy">使用条款和隐私政策</string>
+    <string name="CSDN_LQR_personal_development">个人练习，不涉及版权问题</string>
+    <string name="fun_and_enjoy">All Rights Reserved</string>
+
+    <string name="hint_feedback">亲爱的开发者：\n使用俭哥部落后，我想对你吐槽一番~</string>
+    <string name="feedback_content_empty">请输入你的反馈</string>
+    <string name="feedback">反馈</string>
+
+    <string name="map_search_hint">查找地点、公交</string>
+    <string name="vitae_search_hint">查找在线pdf，支持http</string>
+    <string name="url_search_hint">输入网址</string>
+
+    <string name="network_not_connect">网络连接不可用，请稍后尝试！</string>
+
+    <string name="action_leave">离开</string>
+    <string name="action_send">发送</string>
+    <string name="prompt_message">输入消息...</string>
+
+    <string name="connect">socket已连接</string>
+    <string name="disconnect">socket已断开，请检查你的网络</string>
+    <string name="error_connect">socket连接失败</string>
+
+    <!-- messages -->
+    <string name="message_welcome">Welcome to Socket.IO –</string>
+    <plurals name="message_participants">
+        <item quantity="one">现在有\'s %d 人在线</item>
+        <item quantity="other">现在有 %d 人在线</item>
+    </plurals>
+    <string name="message_user_joined">%s 加入聊天</string>
+    <string name="message_user_left">%s 离开聊天</string>
+    <string name="user_action_typing">正在输入</string>
+    <string name="add">添加</string>
+
+</resources>

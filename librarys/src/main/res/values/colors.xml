@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#393A3F</color>
+    <color name="colorAccent">#1afa29</color>
+    <color name="activity_anim">#901afa29</color>
+
+
+    <color name="table_text_color">#383831</color>
+    <color name="table_default_color">#383831</color>
+    <color name="theme_color">#f6382f</color>
+    <color name="base_color">#f4f4f4</color>
+    <!--黑色文字-->
+    <color name="black_color">#383831</color>
+    <!--白色-->
+    <color name="white_color">#ffffff</color>
+    <!--输入框hint字体颜色-->
+    <color name="input_hint_color">#d4c8c8</color>
+    <!--按钮点击后的颜色-->
+    <color name="gray_btn_click_color">#d4c8c8</color>
+    <!--设置页面选择的文字颜色-->
+    <color name="gray_setting_color">#949494</color>
+    <!--浅灰色-->
+    <color name="light_gray_text_color">#b2b2b2</color>
+    <!--中间间隔线颜色-->
+    <color name="line_color">#f0f0f0</color>
+
+    <color name="report_text_color">#9a9a9a</color>
+
+    <color name="green">#3dd15d</color>
+    <color name="select_emoji_click">#6633B5E5</color>
+    <color name="time_finish_color">#ffc0ba</color>
+
+    <color name="def_wheel_color">#4E4988</color>
+    <color name="def_reached_color">#FFD844</color>
+    <color name="def_pointer_color">#FFFFFF</color>
+
+    <color name="red">#ee5f62</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="white">#ffffff</color>
+    <color name="line">#D2D2D2</color>
+
+    <color name="main">#26AAFD</color>
+    <color name="main_bg0">#f0f0f0</color>
+    <color name="main_bg1">#f8f8f8</color>
+    <color name="main_bg3">#FEB838</color>
+    <color name="main_bg4">#F6F5F5</color>
+    <color name="main_bg5">#E6E6E6</color>
+
+    <color name="assist_red">#ff6d6d</color>
+    <color name="assist_blue">#64a4f4</color>
+    <color name="assist_blue_down">#3489ff</color>
+    <color name="assist_green">#6ae068</color>
+    <color name="assist_yellow">#fcce0b</color>
+
+    <color name="gray0">#464646</color>
+    <color name="gray1">#7e7e7e</color>
+    <color name="gray2">#969696</color>
+    <color name="gray3">#c8969696</color>
+    <color name="gray4">#F5F5F5</color>
+    <color name="gray5">#EBEBEB</color>
+    <color name="gray6">#FBFBFB</color>
+    <color name="gray7">#999999</color>
+    <color name="gray8">#D9D9D9</color>
+    <color name="gray9">#DBDFE0</color>
+
+    <color name="red0">#ff0000</color>
+    <color name="red1">#D84E43</color>
+    <color name="red2">#F08B88</color>
+    <color name="red3">#FFFAF5</color>
+    <color name="red4">#823026</color>
+    <color name="red5">#FA6F5F</color>
+    <color name="red6">#D54A47</color>
+    <color name="red7">#E64340</color>
+    <color name="red8">#FF3E3E</color>
+
+    <color name="green0">#45C01A</color>
+    <color name="green1">#45C01A</color>
+    <color name="green2">#A3DEA3</color>
+    <color name="green3">#1AAD19</color>
+
+    <color name="blue0">#576B95</color>
+
+    <color name="black0">#000000</color>
+    <color name="black1">#99000000</color>
+
+    <color name="yellow0">#FFC51B</color>
+    <color name="yellow1">#E5A134</color>
+
+    <color name="main_tab_normal_color">#707070</color>
+    <color name="main_tab_selected_color">#1afa29</color>
+
+    <color name="theme_primary_trans">#99212121</color>
+    <color name="theme_primary">#2196F3</color>
+
+    <color name="transparentblack2">#808080</color>
+
+    <color name="username0">#e21400</color>
+    <color name="username1">#91580f</color>
+    <color name="username2">#f8a700</color>
+    <color name="username3">#f78b00</color>
+    <color name="username4">#58dc00</color>
+    <color name="username5">#287b00</color>
+    <color name="username6">#a8f07a</color>
+    <color name="username7">#4ae8c4</color>
+    <color name="username8">#3b88eb</color>
+    <color name="username9">#3824aa</color>
+    <color name="username10">#a700ff</color>
+    <color name="username11">#d300e7</color>
+
+    <color name="progress_dialog_color">#0bd38a</color>
+    <color name="search_layover_bg">#50000000</color>
+
+    <color name="__picker_pager_bg">#CA000000</color>
+    <color name="__picker_selected_bg">#44000000</color>
+    <color name="__picker_black_40">#282828</color>
+    <color name="__picker_common_primary">#f3f3f3</color>
+
+    <color name="__picker_text_40">#282828</color>
+    <color name="__picker_text_80">#505050</color>
+    <color name="__picker_text_120">#787878</color>
+    <color name="__picker_item_photo_border_selected">#ff99cc00</color>
+    <color name="__picker_item_photo_border_n">#33ffffff</color>
+
+    <color name="gray_color">#949494</color>
+
+    <color name="rippelColor">#ff99cc00</color>
+
+    <color name="showmethod_start_color">#FFFFFF</color>
+    <color name="showmethod_end_color">#C8C8C8</color>
+
+</resources>
