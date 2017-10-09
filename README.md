@@ -33,7 +33,7 @@
 
 （二）与后台交互安全机制：
 
-1、后台服务器使用了leancloud和nodejs搭建。
+1、后台服务器使用了leancloud和nodejs搭建。https://github.com/zhangsunyucong/NodeTestDemo 
 
 2、接口签名认证保护机制。在参数传输给服务器前，将接口的参数按照一定规则签名后再加密传输，防止参数和信息被中间人获取和修改。
 
