@@ -1,6 +1,6 @@
 # MVPDemo
 
-这个项目的重点有两个：一是：MVP、dagger2和rxjava使用，二是：与后台交互的安全机制。三是: socket
+这个项目的重点有三个：一是：MVP、dagger2和rxjava使用，二是：与后台交互的安全机制。三是: socket
 
 （一）android前端：
 
