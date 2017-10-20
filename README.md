@@ -8,7 +8,7 @@
 
 2、数据库后台接口交互使用了retrofit2，数据格式为json。
 
-3、自定义retrofit2的ConverterFactory和Interceptor实现统一加解密交互的数据。
+3、自定义retrofit2的ConverterFactory和Interceptor实现统一加解密交互的数据，面向切面。
 
 4、rxjava2，rxlifecycle2，rxbinding2等Rx系列简单使用。
 
@@ -30,6 +30,8 @@
 
 12、页面路由Arouter.
 
+13、app端出现异常，在杀死应用前，启动异常页面并允许用户重启。
+
 
 （二）与后台交互安全机制：
 
@@ -48,4 +50,4 @@
 7、为了保证每个请求的唯一性，可以添加每个请求的唯一性。
 
 （三）其它
-MPChart，地图服务
+MPChart，地图服务，图片压缩
