@@ -34,6 +34,8 @@
 
 14、Cmake的使用
 
+15、使fragment和activity一样有重写和使用onKeyDown和onBackPressed事件监听。其他情况可以类推。
+
 
 （二）与后台交互安全机制：
 
