@@ -2,6 +2,8 @@
 
 这个项目的重点有三个：一是：MVP、dagger2和rxjava使用，二是：与后台交互的安全机制。三是: socket
 
+小程序版客户端（个人帐号版）：https://github.com/zhangsunyucong/jiangebuluowx
+
 （一）android前端：
 
 1、MVPDemo是一个MVP架构，dagger2对象依赖注入来集合MVP各个组件。页面效果有点类似微信。
